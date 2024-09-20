@@ -1,0 +1,19 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1300px;
+    padding: 80px;
+    border-radius: 16px;
+    background-color: #000000;
+}
+
+h1 {
+    color: #ffffff;
+}
