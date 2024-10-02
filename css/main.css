@@ -14,7 +14,7 @@ body {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.name {
+.web-link {
     margin-left: 40px;
 }
 
@@ -25,8 +25,13 @@ body {
     margin-right: 4px;
 }
 
-.webpage {
+.name {
     font-size: 28px;
+}
+
+.nav {
+    margin-left: 140px;
+    margin-right: 140px;
 }
 
 .buttons {
@@ -42,9 +47,10 @@ body {
     border-radius: 16px;
     background-color: #a4d9ec;
     margin-top: 120px;
+    margin-bottom: 72px;
 }
 
-.hero-section {
+.hero-sections {
     display: flex;
 }
 
@@ -91,4 +97,46 @@ body {
 .ad {
     width: 400px;
     border-radius: 16px;
+}
+
+.user-segments {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hint {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+.us {
+    display: flex;
+    gap: 24px;
+}
+
+.us-image {
+    width: 352px;
+    height: 352px;
+    border-radius: 16px;
+}
+
+.us-title {
+    margin-bottom: 16px;
+}
+
+.us-subtitle {
+    text-align: center; /* จัดข้อความให้อยู่ตรงกลาง */
+}
+
+.us-comment {
+    width: 352px;
+}
+
+.us-topic {
+    margin-top: 16px;
 }
