@@ -90,10 +90,6 @@ body {
     width: 24px;
 }
 
-.twitter {
-    border-radius: 50%;
-}
-
 .ad {
     width: 400px;
     border-radius: 16px;
@@ -116,7 +112,7 @@ body {
 
 .us {
     display: flex;
-    gap: 24px;
+    gap: 48px;
 }
 
 .us-image {
