@@ -43,10 +43,10 @@ body {
     justify-content: center;
     align-items: center;
     width: 1300px;
-    padding: 80px;
+    padding: 96px;
     border-radius: 16px;
     background-color: #a4d9ec;
-    margin-top: 120px;
+    margin-top: 160px;
     margin-bottom: 72px;
 }
 
@@ -91,7 +91,7 @@ body {
 }
 
 .ad {
-    width: 400px;
+    width: 440px;
     border-radius: 16px;
 }
 
@@ -100,6 +100,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-bottom: 120px;
 }
 
 .hint {
@@ -135,4 +136,30 @@ body {
 
 .us-topic {
     margin-top: 16px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.tracking {
+    width: 440px;
+}
+
+.info-content {
+    width: 480px;
+}
+
+.trial {
+    color: #ffffff;
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+    border-radius: 4px;
+    padding: 8px;
+}
+
+.trial:hover {
+    background-color: #0b5ed7;
 }
